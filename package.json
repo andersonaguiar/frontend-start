@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/andersonaguiar/frontend-start/issues"
   },
-  "homepage": "https://github.com/andersonaguiar/frontend-start"
+  "homepage": "https://github.com/andersonaguiar/frontend-start",
+  "devDependencies": {
+    "stylus": "^0.47.3"
+  }
 }
