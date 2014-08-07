@@ -1,0 +1,16 @@
+{
+  "name": "frontend-start",
+  "version": "0.0.0",
+  "homepage": "https://github.com/andersonaguiar/frontend-start",
+  "authors": [
+    "Anderson Aguiar <revsoft10@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

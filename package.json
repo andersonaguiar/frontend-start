@@ -1,0 +1,19 @@
+{
+  "name": "frontend-start",
+  "version": "0.0.0",
+  "description": "frontend-start ==============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://andersonaguiar@github.com/andersonaguiar/frontend-start.git"
+  },
+  "author": "Anderson Aguiar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersonaguiar/frontend-start/issues"
+  },
+  "homepage": "https://github.com/andersonaguiar/frontend-start"
+}
