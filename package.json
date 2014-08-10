@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/andersonaguiar/frontend-start",
   "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-stylus": "^1.3.0",
+    "matchdep": "^0.3.0",
+    "nib": "^1.0.3",
     "stylus": "^0.47.3"
   }
 }
