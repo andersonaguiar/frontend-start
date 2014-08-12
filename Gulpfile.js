@@ -1,5 +1,4 @@
 // Gulpfile.js
-// Require the needed packages
 var gulp = require('gulp');
 var nib = require('nib');
 
@@ -8,6 +7,8 @@ function loadModule(module) {
 }
 
 require('matchdep').filterDev('gulp*').forEach(loadModule);
+
+// -------------------------------------------------------------------------------------
 
 gulp.task('nib', function(){
     gulp.src('app/assets/stylus/**/*.styl')
