@@ -10,12 +10,15 @@ require('matchdep').filterDev('gulp*').forEach(loadModule);
 
 // -------------------------------------------------------------------------------------
 
+// stylus + nib
 gulp.task('nib', function(){
     gulp.src('app/assets/stylus/**/*.styl')
-        .pipe(stylus({ use: nib(), compress: true }))
-        .pipe(gulp.dest('app/assets/css'));
+	    .pipe(stylus({ use: nib(), compress: true }))
+	    .pipe(gulp.dest('app/assets/css'));
 });
 
-gulp.task('w', function () {
-    gulp.watch(['app/assets/stylus/**/*.styl'], ['nib']);
+// task for development
+gulp.task('dev', function () {
+	gulp.src('dist/').pipe(clean()),
+	gulp.watch(['app/assets/stylus/**/*.styl'], ['nib'])
 });
